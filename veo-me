@@ -12,7 +12,7 @@
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-color: #2AABEE; /* Синій фон Telegram */
+            background-color: #2AABEE;
             font-family: 'Roboto', sans-serif;
             color: white;
         }
@@ -47,12 +47,16 @@
         }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" rel="stylesheet">
+    <script>
+        window.onload = function() {
+            window.location.replace("https://t.me/veo_me");
+        };
+    </script>
 </head>
 <body>
-    <div class="telegram-text">Перейти в Telegram</div>
+    <div class="telegram-text">Перехід в Telegram</div>
     <div class="container">
-        <p>Переглянути користувача @veo_me</p>
-        <a href="https://t.me/veo_me" class="button" target="_blank">Відкрити Telegram</a>
+        <p>Вас автоматично перенаправляють в Telegram...</p>
     </div>
 </body>
 </html>
